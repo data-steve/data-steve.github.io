@@ -1,6 +1,7 @@
 ---
 layout: post
 title: why R u thankful?
+tags: [R, Rstats, Data Science]
 ---
 
 
