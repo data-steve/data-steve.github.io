@@ -6,7 +6,7 @@ tags: [R, googleformr]
 
 
 In my [last post on open-source
-thanksgiving](_posts/2015-11-21-why-R-u-thankful.md),
+thanksgiving](/why-R-u-thankful),
 I described a side project I’m running for the holidays (at least)
 collecting what about R makes useRs thankful. I put an example function
 [**googleformr**](https://github.com/steventsimpson/googleformr)**::why\_R\_u\_thankful()**

@@ -5,8 +5,7 @@ tagline: data, steve
 locale: en_US
 search: false
 logo: data+steve.png
-url: http://data-steve.github.io
-
+url: 
 # Jekyll configuration
 
 permalink:   /:title/
