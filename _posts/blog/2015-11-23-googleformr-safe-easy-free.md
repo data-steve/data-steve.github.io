@@ -1,6 +1,7 @@
 ---
 layout: post
 title: get data - safe, easy, and free
+tags: R, googleformr
 ---
 
 

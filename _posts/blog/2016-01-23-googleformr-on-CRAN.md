@@ -1,6 +1,7 @@
 ---
 layout: post
 title: googleformr on CRAN
+tags: R, googleformr
 ---
 
 
