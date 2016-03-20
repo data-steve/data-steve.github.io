@@ -5,6 +5,13 @@ tags: [R, Data Science, Open Source]
 ---
 
 
+<div  style="max-width: 1020px; max-height: 707px; padding-bottom: 1.8%;">
+
+
+
+<img src="/images/google_forms.png"   width="1020" height="707">
+
+</div>
 
 [googleformr](https://github.com/data-steve/googleformr) is a github
 package for collecting data programmatically via Google Forms.
@@ -13,13 +20,6 @@ To my thinking, Google Forms are more convenient and give more control
 than trying to use Google Sheets or public folders on Dropbox. So, I put
 this package together. More on that later.
 
-<div  style="max-width: 1020px; max-height: 707px; padding-bottom: 1.8%;">
-
-
-
-<img src="/images/google_forms.png"   width="1020" height="707">
-
-</div>
 
 
 But for now, why not put it to use for the open source/ R / data science
