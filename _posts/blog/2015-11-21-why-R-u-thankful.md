@@ -1,7 +1,7 @@
 ---
 layout: post
 title: why R u thankful?
-tags: R, Data Science, Open Source
+tags: R, Data_Science, Open_Source
 ---
 
 
