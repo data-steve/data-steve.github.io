@@ -67,7 +67,7 @@ lot of interesting ways. More about that in later posts.
 #### googleformr 
 
 I wrote the
-[**googleformr**](https://github.com/data-steve/googleformr) ****
+[**googleformr**](https://github.com/data-steve/googleformr) 
 package with some wrapper functions around the httr and rvest packages
 that helps facilitate POSTing information to your very own Google Forms.
 You just send the data, Google Forms handles the organization.
