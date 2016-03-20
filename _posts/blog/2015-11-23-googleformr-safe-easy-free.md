@@ -1,20 +1,8 @@
 ---
 layout: post
 title: get data - safe, easy, and free
-tags: R, googleformr
+tags: [R, googleformr]
 ---
-
-
-
-<div  style="max-width: 1020px; max-height: 263px; padding-bottom: 25.8%;">
-
-
-
-<img src="/images/googleformr_signpost.png"   width="1020" height="263">
-
-</div>
-
-
 
 
 In my [last post on open-source
@@ -33,6 +21,15 @@ pacman::p_load_gh(“steventsimpson/googleformr”)
 ``` 
 googleformr::why_R_u_thankful("") # <- your answer goes in quotes
 ```
+
+
+<div  style="max-width: 1020px; max-height: 263px; padding-bottom: 25.8%;">
+
+
+
+<img src="/images/googleformr_signpost.png"   width="1020" height="263">
+
+</div>
 
 #### googleformr Genesis 
 
