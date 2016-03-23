@@ -4,9 +4,7 @@ title: 'Porting Medium to Jekyll Github.io with R'
 tags: [GITHUB, JEKYLL, R]
 ---
 
-I’m porting my Medium page [<span class="__cf_email__"
-data-cfemail="4f222a2b263a22612c2022600f2b2e3b2e">\[email protected\]</span>](http://medium.com/@data_steve)
-\_steve to host on Github using Jekyll at
+I’m porting [my Medium blog](http://medium.com/@data_steve) to host on Github using Jekyll at
 [data-steve.github.io](http://data-steve.github.io). I decided to do it
 with code and make a package out of it in case others might want to.
 
