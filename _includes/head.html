@@ -26,7 +26,19 @@
 <!-- Webfonts -->
 <script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
-
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Source+Sans+Pro::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  
 <!-- HTML5 Shiv and Media Query Support -->
 <!--[if lt IE 9]>
   <script src="{{ site.url }}/assets/js/vendor/html5shiv.min.js"></script>
