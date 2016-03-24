@@ -4,6 +4,9 @@ title: 'Porting Medium to Jekyll Github.io with R'
 tags: [GITHUB, JEKYLL, R]
 ---
 
+[this transition post is a copy from my Medium account for your comparison.]
+
+
 I’m porting [my Medium blog](http://medium.com/@data_steve) to host on Github using Jekyll at
 [data-steve.github.io](http://data-steve.github.io). I decided to do it
 with code and make a package out of it in case others might want to.
@@ -11,14 +14,13 @@ with code and make a package out of it in case others might want to.
 
 #### Reasons 
 
-R-bloggers does like Medium, since Medium will only share an excerpt of
+R-bloggers does not like Medium as a feeder platform, since Medium will only share an excerpt of
 the post with a link to the rest. R-bloggers wants the whole post. Fair
 enough.
 
 Its extra work, but I like the idea of being able to work within my own
 development environment. And instead of having to learn a bunch of
-keyboard shortcuts, I can write code and execute commands and push
-updates via Jekyll.
+keyboard shortcuts, as I did for Medium, I can write code and execute commands and push updates via Jekyll.
 
 #### Example 
 
@@ -38,15 +40,10 @@ Here’s a screenshot of a random bit of the code from the R package I’m
 writing to show how the images are handled.
 
 
-
-
-
-
-
-
 ![](/images/1*RDkVpxPfCqDY8YrRVUtSxA.png)
 
 
 
-See you over at [data-steve.github.io](http://data-steve.github.io).
+See you over at [data-steve.github.io](http://data-steve.github.io).  There's I'll document and share the R code I used to transition my Medium content over.
+
 
