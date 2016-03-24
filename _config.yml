@@ -52,3 +52,5 @@ owner:
   #email: you@email.com
   twitter: data_steve #username
   github: data-steve #username
+  google:
+    analytics: UA-35526906-2
