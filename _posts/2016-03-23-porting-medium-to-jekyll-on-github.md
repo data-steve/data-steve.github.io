@@ -14,13 +14,12 @@ with code and make a package out of it in case others might want to.
 
 #### Reasons 
 
-[R-bloggers](http://www.r-bloggers.com/) does not like Medium as a feeder platform, since Medium will only share an excerpt of
-the post with a link to the rest. R-bloggers wants the whole post. Fair
-enough.
+Only after setting up the Medium blog did I realize that it doesn't meet [R-bloggers](http://www.r-bloggers.com/) needs for syndication, since Medium will only share an excerpt of
+the post with a link to the rest. R-bloggers wants the whole post. Seems fair.
 
-Its extra work, but I like the idea of being able to work within my own
+It's extra work to port over from Medium, but I like the idea of being able to work within my own
 development environment. And instead of having to learn a bunch of
-keyboard shortcuts, as I did for Medium, I can write code and execute commands and push updates via Jekyll.
+keyboard shortcuts for adding code and links, as I did for Medium, I can write code and execute commands and push updates via Jekyll and RStudio or SublimeText, for example.
 
 #### Example 
 
