@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: data_steve
-tagline: data, steve
+#description: data, steve
 locale: en_US
 search: false
 logo: data+steve.png

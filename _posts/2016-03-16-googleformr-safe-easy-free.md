@@ -1,11 +1,11 @@
 ---
 layout: post
-title: get data - safe, easy, and free
+title: Get Data - Safe, Easy, and Free
 tags: [R, googleformr]
 ---
 
 
-In my [last post on open-source
+<!--In my [last post on open-source
 thanksgiving](/why-R-u-thankful),
 I described a side project I’m running for the holidays (at least)
 collecting what about R makes useRs thankful. I put an example function
@@ -21,9 +21,10 @@ pacman::p_load_gh(“steventsimpson/googleformr”)
 ``` 
 googleformr::why_R_u_thankful("") # <- your answer goes in quotes
 ```
+-->
 
 
-<div  style="max-width: 1020px; max-height: 263px; padding-bottom: 25.8%;">
+<div  style="max-width: 1020px; max-height: 263px; padding-bottom: 15.8%;">
 
 
 

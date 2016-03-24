@@ -14,7 +14,7 @@ with code and make a package out of it in case others might want to.
 
 #### Reasons 
 
-R-bloggers does not like Medium as a feeder platform, since Medium will only share an excerpt of
+[R-bloggers](http://www.r-bloggers.com/) does not like Medium as a feeder platform, since Medium will only share an excerpt of
 the post with a link to the rest. R-bloggers wants the whole post. Fair
 enough.
 

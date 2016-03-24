@@ -6,14 +6,15 @@ tags: [R, googleformr]
 
 
 
-As of a few weeks ago, I was able to put [**googleformr** up on
-CRAN](https://cran.r-project.org/web/packages/googleformr/index.html).
-As I said in my last post,
+
+As I said in [my last post](/googleformr-safe-easy-free/),
 
 > **googleformr** came out of a persistent series of questions: How to
 > collect data remotely? And do it programmatically with R? And safely,
 > easily, and free?
 
+Well, now [**googleformr** is up on
+CRAN](https://cran.r-project.org/web/packages/googleformr/index.html).
 
 
 #### Google Form niceties
@@ -48,6 +49,6 @@ near future I hope to focus more on expanding ways that googleformr can
 be leveraged elsewhere.
 
 I’ll be posting versions of that on [my github
-page](https://github.com/steventsimpson). Keep a look out for news of
+page](https://github.com/data-steve). Keep a look out for news of
 this at [R-bloggers](http://www.r-bloggers.com/) and Twitter
 @data\_steve.
