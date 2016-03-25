@@ -28,12 +28,12 @@ to collect data on why you are open source. Go have a look to see that it's just
 
 I’ve used googleformr to build a demo function
 called **why\_R\_u\_opensource**, which posts whatever data I give it to
-my form. It comes with the googleformr package.
+my form. It comes with the latest dev version of googleformr package at my [github account](https://github.com/data-steve/googleformr).
 
-To test out googleformr, send me your reasons for using open source via the code below.
+To test out googleformr, send in your reasons for using open source via the code below.
 
 ```
-install.packages("googleformr")
+devtools::install_github("data-steve/googleformr")
 googleformr::why_R_u_opensource("") # <- your answer goes in quotes
 ```
 
