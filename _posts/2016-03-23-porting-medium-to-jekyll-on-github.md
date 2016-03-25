@@ -43,6 +43,6 @@ writing to show how the images are handled.
 
 
 
-See you over at [data-steve.github.io](http://data-steve.github.io).  There's I'll document and share the R code I used to transition my Medium content over.
+See you over at [data-steve.github.io](http://data-steve.github.io).  There I'll document and share the R code I used to transition my Medium content over, likely in the form of github package notes.
 
 

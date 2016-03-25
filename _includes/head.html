@@ -6,6 +6,8 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 
+
+
 {% include open-graph.html %}
 
 {% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
@@ -53,6 +55,8 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
+
+
 <!-- Icons -->
 <!-- 16x16 favicon.ico-->
 <link rel="shortcut icon" href="{{ site.url }}/images/avatar.jpg">
@@ -66,3 +70,6 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">-->
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">-->
+
+<!-- meta data for categories feed -->
+{% feed_meta %}

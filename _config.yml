@@ -17,6 +17,10 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
+
+feed:
+  path: atom.xml
 
 kramdown:
   auto_ids: true

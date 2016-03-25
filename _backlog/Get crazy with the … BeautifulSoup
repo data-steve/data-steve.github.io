@@ -1,0 +1,7 @@
+Get crazy with the … BeautifulSoup 
+
+Looping lists in Python and R Third in our series, we dive straight into web-scraping. (‘Bout time!) 
+
+Syntax Handling loops and lists in Python and R have very similar syntax, if we stick to the standard for-loop.
+
+It’s when we get to R’s lapply from the apply family of functions and Python’s list compression that we see some real divergence. Both can be a bit of a mind-job the first time you see it.

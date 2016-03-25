@@ -5,25 +5,6 @@ tags: [R, googleformr]
 ---
 
 
-<!--In my [last post on open-source
-thanksgiving](/why-R-u-thankful),
-I described a side project I’m running for the holidays (at least)
-collecting what about R makes useRs thankful. I put an example function
-[**googleformr**](https://github.com/steventsimpson/googleformr)**::why\_R\_u\_thankful()**
-into the package to facilitate the project. Use the code below to
-participate by sharing your own thanksgiving.
-
-``` 
-if (!require(“pacman”)) install.packages(“pacman”)
-pacman::p_load_gh(“steventsimpson/googleformr”)
-```
-
-``` 
-googleformr::why_R_u_thankful("") # <- your answer goes in quotes
-```
--->
-
-
 <div  style="max-width: 1020px; max-height: 263px; padding-bottom: 15.8%;">
 
 
