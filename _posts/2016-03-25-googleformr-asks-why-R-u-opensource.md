@@ -1,6 +1,6 @@
 ---
 layout: post
-title: why R u open-source?
+title: googleformr - why R u open-source?
 tags: [R, Data Science, Open Source]
 ---
 
