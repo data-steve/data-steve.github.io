@@ -10,7 +10,7 @@ One of the packages I use all the time now in my interactive R sessions is [pacm
 
 Grab it off cran with `install.packages("pacman")`.
 
-Out of the box, the function I use every day in all my scripts or at the console is `pacman::p_load()`; it's a great substite for `library()` or `require()`. Yihui has already written about his preferences/understanding on the [library vs. require](http://yihui.name/en/2014/07/library-vs-require/).
+Out of the box, the function I use every day in all my scripts or at the console is `pacman::p_load()`; it's a great substitute for `library()` or `require()`. Yihui has already written about his preferences/understanding on the [library vs. require](http://yihui.name/en/2014/07/library-vs-require/).
 
 I prefer `pacman::p_load()` for different reasons than he describes. Instead of having to write 5 lines of code to load for 5 common data munging packages, like so: 
 
