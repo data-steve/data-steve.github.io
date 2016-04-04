@@ -38,8 +38,8 @@ nothing_special <- function(a){
 Here’s a screenshot of a random bit of the code from the R package I’m
 writing to show how the images are handled.
 
+<img src="/images/1*RDkVpxPfCqDY8YrRVUtSxA.png">
 
-![](/images/1*RDkVpxPfCqDY8YrRVUtSxA.png)
 
 
 

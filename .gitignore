@@ -6,3 +6,5 @@ codekit-config.json
 node_modules
 .sass-cache
 .jekyll-metadata
+.Rproj.user
+data-steve.github.io.Rproj
