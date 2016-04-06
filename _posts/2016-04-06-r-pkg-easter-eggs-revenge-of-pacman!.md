@@ -4,8 +4,8 @@ title: R pkg Easter Eggs -- Revenge of Pacman!
 tags: [R, pacman, useR, Rdev]
 ---
 
-![](/images/pacman.png)
 
+![](/images/pacman.png)
 
 
 In my [last post](/let-pacman-eat-up-library-and-require/), I praised the virtues of pacman. I also wanted to indulge of one of the main benefits of working with one of pacman's devs: [Tyler Rinker](https://github.com/trinker).
