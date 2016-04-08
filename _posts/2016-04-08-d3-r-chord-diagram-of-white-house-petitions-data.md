@@ -7,7 +7,7 @@ tags: [R, d3, htmlwidgets,  dataviz ]
 ![](/images/family_firearms.png)
 
 
-The OpenData movement has gotten the White House involved and produced some novel datasets. 
+The OpenData movement has the White House producing and releasing some novel datasets. 
 One of them is the [We The People petition site](https://petitions.whitehouse.gov/developers). I learned about this from [Proofreader.com's](http://www.prooffreader.com/2016/03/most-characteristic-words-in-successful.html) interesting [python work](https://gist.github.com/Prooffreader/11da9e99c3b3f2bbf7f3) using that data. From the petition site, you
 can see an [interesting gallery of work](https://petitions.whitehouse.gov/how-why/api-gallery) done in different language and for different media/platform. One such example is [yoni's r pkg](https://github.com/yoni/r_we_the_people/).
 
