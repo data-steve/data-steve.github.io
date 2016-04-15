@@ -1,0 +1,16 @@
+for feed.categories.xml
+
+I need to 
+
+1. turn on jekyll-feed gem in Gemfile
+
+2. uncomment 
+feed 
+    path 
+
+ gem 
+   -jekyll-feed
+
+3. add to bottom of _include/head.html
+<!-- meta data for categories feed -->
+<!--{% feed_meta %}-->
