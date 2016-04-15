@@ -47,10 +47,10 @@ If you like what you see, below try it yourself with the code below or follow al
     pacman::p_load(dplyr, magrittr, ggplot2, tidyr)
     pacman::p_load_gh("hrbrmstr/streamgraph")
     home <- "~/Desktop/whitehouse_gov/"
-    load(file.path(home,"data/petition_analyses.RData"))
+    load(file.path(home,"data/petitions.RData"))
     
     
-    # get if you need
+    # get data if you need
     # data_url <- "https://github.com/yoni/r_we_the_people/blob/master/data/petitions.RData?raw=true"
     # curl::curl_download(data_url, destfile=file.path(home,"data/petitions.RData"))
     # this behaved much better than download.file() for me
