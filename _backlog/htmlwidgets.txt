@@ -1,0 +1,18 @@
+http://www.buildingwidgets.com/blog/2015/12/1/week-48-stmcorrviz   structural topic modeling
+  
+http://www.buildingwidgets.com/blog/2015/12/16/week-50-summarytreeshtmlwidget    hclust better
+
+
+http://www.buildingwidgets.com/blog/2015/9/28/week-38-datacomb    interactive spreadsheet
+
+
+
+http://www.buildingwidgets.com/blog/2015/7/17/week-28-d3treer
+
+
+http://www.buildingwidgets.com/blog/2015/10/22/week-42-adjacency-matrix    -- adjacency matrix
+
+http://www.buildingwidgets.com/blog/2015/9/17/week-37-parsetr    3 tags like paarcord
+
+
+http://www.buildingwidgets.com/blog/2015/6/5/week-22-d3vennr  

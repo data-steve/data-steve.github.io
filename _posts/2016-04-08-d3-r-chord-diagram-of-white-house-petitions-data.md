@@ -56,18 +56,13 @@ So proofreader's site has a csv, but I found yoni's pkg most useful because it h
 
 
     curl::curl_download(
-    "https://github.com/yoni/r_we_the_people/blob/master/data/petition_analyses.RData?raw=true"
-    , destfile="~/Desktop/petition_analyses.RData"
-    )
+    "https://github.com/yoni/r_we_the_people/blob/master/data/petitions.RData?raw=true"
+    , destfile="~/Desktop/petitions.RData" )
+    load("~/Desktop/petitions.RData")
     
-    load("~/Desktop/petition_analyses.RData")
-    p <- petition_analyses
 
 
 So I found myself that `download.file` was a bit glitchy (trying to download the github website instead of the raw data), so `curl::curl_download` was my go-to, probably will be from now on. **Make sure to use the link to the raw data (as I did) in your curl call, using the `?raw=true` at end of url.** 
-
-One thing
-I don't like about `load()` on an RData file is that you can't change the dataframe name to something shorter without creating a new dataframe, which I called `p` to save on typing. (If you know how, hit me a suggestion at [@data_steve](www.twitter.com/@data_steve)) with the hashtag #aliasForR. 
 
 
 
@@ -82,6 +77,7 @@ A fun pkg I've recently found for making chord diagrams is Matt Flor's [chorddia
 
 
     # recover tag names and ids
+    p <- petitions   # save some typing
     ids_names <- rbind(    
         p[, c("issues1.id", "issues1.name")] %>% setNames(c("ids", "names"))
           , p[, c("issues2.id", "issues2.name")] %>% setNames(c("ids", "names"))

@@ -7,7 +7,6 @@ tags: [R, Github, Jekyll]
 
 ![](/inst/m2jekyll.png)
 
-
 Last week I went through the process of migrating my Medium blog account over to a Jekyll blog hosted github.io.
 
 To help with the process of migrating content over, I developed a set of scripts to handle the whole process. Though the main `medium2jekyll()` function assumes a Medium account as the target website, several of the helper functions are generic enough to pull down any html page with some automated refactoring to markdown template of text-heavy ones.
@@ -23,7 +22,7 @@ To help with the process of migrating content over, I developed a set of scripts
 
 To port your own Medium blog, start by downloading the github package from here:
 
-    devtools::install_github("data-steve/medium2jekyll")
+    pacman::p_load_gh("data-steve/medium2jekyll")
 
 
 
