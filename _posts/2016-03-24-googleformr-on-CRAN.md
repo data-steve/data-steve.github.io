@@ -48,7 +48,5 @@ of an need because of what Google Forms offers out of the box, in the
 near future I hope to focus more on expanding ways that googleformr can
 be leveraged elsewhere.
 
-I’ll be posting versions of that on [my github
-page](https://github.com/data-steve). Keep a look out for news of
-this at [R-bloggers](http://www.r-bloggers.com/) and Twitter
-@data\_steve.
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience" data-dnt="true">Tweet</a><a class="github-button" href="https://github.com/data-steve/googleformr" data-icon="octicon-star" data-style="mega" aria-label="Star data-steve/googleformr on GitHub">googleformr</a> 
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
