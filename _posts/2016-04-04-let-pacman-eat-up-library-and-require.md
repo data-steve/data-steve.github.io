@@ -40,3 +40,5 @@ Lastly, to find out what the path to your R-library, the function `pacman::p_pat
 In the next blog post, we'll have a bit of fun with 
 
 ![](http://fontmeme.com/freefonts/img.php?f=102&s=55&t=R-PKG%20%0Aeaster%20eggs&c=d03e19)
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience" data-dnt="true">Tweet</a>

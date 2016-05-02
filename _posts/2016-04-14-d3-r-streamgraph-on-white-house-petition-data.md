@@ -155,3 +155,4 @@ So I created a (ugly) hack on the html. It goes into the css script for streamgr
 
       change_font(file.path(home, "test.html"), 15)
 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience, d3,opendata" data-dnt="true">Tweet</a>
