@@ -4,15 +4,19 @@ title: googleformr updates on CRAN
 tags: [R, googleformr ]
 ---
 
+
+
 Main updates to **googleformr** have been to remove an internal dependency on magrittr chains in the function construction and to take http status checking outside of the main `gformr` function and into a `check_form_works` function. Both changes provide notable speed gains.
 
-	
-
+<div style="float:right; margin:10px;">
+ <img src="/images/googleformr_logo.png" width="200">
+</div>
 One can still create a function with `gformr` as before:
 
+    pacman::p_load(googleformr)
     form <- "your_google_form_url"
-    my_fun <- googleformr::gformr(form
-                                  , custom_reply = "my reply")
+    my_fun <- gformr(form
+                     , custom_reply = "my reply")
                                   
 And then you can test that it works by:
 
