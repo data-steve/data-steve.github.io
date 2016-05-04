@@ -4,6 +4,7 @@ title: Links I liked
 tags: [R, dataviz, d3, Data Science, LinksILike]
 ---
 
+![](/images/hyperlikes.png)
 
 The interwebs has been aflush with interesting data science material.
 
