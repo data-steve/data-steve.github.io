@@ -1,13 +1,11 @@
 ---
 layout: post
 title: feedbackr <- R-devs + useRs
-tags: [R, googleformr, feedbackr ]
+tags: [R, googleformr, feedbackr, useResearch ]
 ---
 
-#### feedbackr
 
-Generally, I think this could be a useful feature for many R-devs who'd like to be accessible to those useRs. Most useRs don't run their own blog, or attend useR groups, or even have a Github account to post issues. And really, is saying "well done" an Issue? Or, is asking for a feature really an Issues? 
+feedbackr
+The connection between R-Devs and useRs is a critical reason for R's success. The community has been fostered by an openness to share and collaborate towards greater quality.
 
-I'd love 100 notes telling me they'd like a way to distinguish between lots of posts for one person vs. lots of posts from many people. But I wouldn't want to have to close out 100 Issues on Github saying the same thing. 
-
-A new function `feedbackr` enables others to others to 
+useR groups and R-bloggers are invaluable tools for building community and set Rstats as an example to follow; but the average useR does not run a blog or have access to local or national meetups. Most do not have github accounts to post bug issues, or even may be intimidated by github's label as "Issues" Moreover, these are extra steps at the point
