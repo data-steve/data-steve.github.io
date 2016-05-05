@@ -9,7 +9,7 @@ tags: [R, googleformr ]
 Main updates to **googleformr** have been to remove an internal dependency on magrittr chains in the function construction and to take http status checking outside of the main `gformr` function and into a `check_form_works` function. Both changes provide notable speed gains.
 
 <div style="float:right; margin:10px;">
- <img src="/inst/googleformr_logo.png" width="200">
+ <img src="/images/googleformr_logo.png" width="200">
 </div>
 
 One can still create a function with `gformr` as before:
