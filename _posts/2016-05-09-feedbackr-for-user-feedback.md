@@ -1,6 +1,6 @@
 ---
 layout: post
-title: feedbackr &nbsp&nbsp ⤌ &nbsp&nbsp R-devs &nbsp&nbsp + &nbsp&nbspuseRs
+title: feedbackr  ⤌  R-devs  + useRs
 tags: [R, googleformr, useResearch ]
 ---
 
