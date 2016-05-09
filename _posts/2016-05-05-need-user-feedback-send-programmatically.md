@@ -4,7 +4,7 @@ title: Need user feedback? Send it directly from R
 tags: [R, googleformr, useResearch ]
 ---
 
-<iframe src="//giphy.com/embed/5xtDarnvDIBBEr972uY" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/help-me-you-jerry-macguire-5xtDarnvDIBBEr972uY">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/5xtDarnvDIBBEr972uY/giphy.gif" width="480" height="288" >
 
 #### Help Me, Help You
 
