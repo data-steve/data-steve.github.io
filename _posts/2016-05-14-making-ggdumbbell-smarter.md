@@ -74,3 +74,6 @@ For me, a rather frustrating point about `geom_segment()` is how its `aes` handl
 
 Check out Hadley's use of the color arg inside of aes at his [ggplot documentation page](http://docs.ggplot2.org/current/geom_segment.html) to find another way to use color to distinguish between curves and segments. It's the first example.
 
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,ggplot2,datascience,dataviz" data-dnt="true">Tweet</a>
+<br><br>
