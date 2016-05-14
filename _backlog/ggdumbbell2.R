@@ -44,9 +44,9 @@ ggplot(df_tall, aes(y=fvar, x=values) )+
            , label=ll
            , color = colors[3], size=4.8 , vjust = 2.5) +
   labs(list(x="Values",y=nms[3])) +
-  annotate("text", x=8.75, y=5, label="Green/Red signifies\nhigher/lower performance.\n\n Color intensity signifies\nmagnitude of difference.", color=colors[3], size=7, vjust = .75)
+  annotate("text", x=8.75, y=5, label="Green/Red signifies\nhigher/lower performance.\n\n Color intensity signifies\nimporance of difference.", color=colors[3], size=7, vjust = .75)
 }
 
 ggdumbbell(dat) +
-  ggtitle("Francine's performance against Jessica") +
+  # ggtitle("Jessica's performance against Francine") +
   ggsave("~/Documents/repos/data-steve.github.io/images/dumbbell.png")
