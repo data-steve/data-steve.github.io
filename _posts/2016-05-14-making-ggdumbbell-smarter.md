@@ -14,6 +14,7 @@ Also, in addition to rank order changing, I wanted to highlight that some gaps, 
 
 To make things concrete, let's use a working example. Say, there's a coach who wants to know how her athlete Jessica compares along judges scores to her strongest competitor Francine on 5 track-n-field events. Because she's savvy, the coach decides to graph these difference on one dumbbell graph. The coach really wants to make clear to Jessica which events Jessica's stronger and weaker than her competitor Francine. 
 
+    pacman::p_load(dplyr, tidyr, ggplot2)
     dat <-data.frame("Jessica" = c(8.6, 9.3, 9.34, 9.1, 9),
                      "Francine" = c(9.4, 8.88, 9.2, 9.24, 9.34),
                      "Events" = factor(1:5,labels=c("sprint", "hurdles","javelin", "discus", "hi-jump")))
