@@ -20,7 +20,7 @@ To make things concrete, let's use a working example. Say, there's a coach who w
 
 To make the information apparent, I encode relative rank and gap size in the graph using color and alpha levels, which are the main additions to previous dumbbell plots. The relative order (win/loss) within each sporting event is encoded by the colors green/red. The intensity with which the entity of interest (Jessica in our example) wins or loses is captured with the alpha level intensifying for greater gaps and lessening for smaller ones. 
 
-This use of alpha level is especially useful in cases were the statistic being compared may have some dispersion around it, such that faint alphas suggest the difference isn't meaningful. And I like alpha here. I had tried varying the line width to encode intensity at first, and though it did attract my eyes attention more to the more intense differences, I didn't like how it ruined the symmetry in the visual aesthetic. 
+This use of alpha level is especially useful in cases were the statistic being compared may have some dispersion around it, such that faint alphas suggest the difference isn't meaningful. And I like alpha here. I had tried varying the line width to encode intensity at first; though it did attract my eyes attention more to the more intense differences, I didn't like how it ruined the symmetry in the visual aesthetic. 
 
 So here's my version of a dumbbell function to create the graph above. 
 
