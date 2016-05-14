@@ -61,7 +61,7 @@ So here's my version of a dumbbell function to create the graph above.
     ggdumbbell(dat) +
       ggtitle("Francine's performance against Jessica")
 
-I'll not pretend to have it packaged up as nicely as @hrbrmstr has in ggalt. He's managed to set his data up such that he doesn't appear to need to have a wide and tall set of dataframes.  
+I'll not pretend to have it packaged up as nicely as @hrbrmstr has in ggalt. He's managed to set up his data and/or his function such that he doesn't appear to need to have a wide and tall set of dataframes.  
 
 For me, a rather frustrating point about `geom_segment()` is how its `aes` handles the color arguments. It took me 2 hours of googling and fiddling to figure out that if you want the segments to vary by color where you actually define the colors, you need to have the color arg assigned outside the aes. 
 
