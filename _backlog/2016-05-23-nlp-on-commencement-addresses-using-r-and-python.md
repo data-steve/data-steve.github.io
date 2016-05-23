@@ -1,21 +1,22 @@
 ---
 layout: post
 title: 'NLP on NPR’s Commencement Addresses Using R and Python'
-tags: [PYTHON, R, NLP]
+tags: [R, NLP, Python]
 ---
 
-Commencing with Commencements.
+![](/images/1*z2iYrZI9xUMoBuIKVO_wQg.png)
+
 
 The other day we ([Steve](http://twitter.com/data_steve) ‘n’
 [Tyler](http://trinkerrstuff.wordpress.com)) stumbled across this really
 interesting [analysis of the President’s State of the Union (SOTU)
 speeches](http://www.vocativ.com/interactive/usa/us-politics/presidential-readability/),
-through one of [our favorite Data Science
-podcasts](http://www.partiallyderivative.com/). We thought it’d be a fun
-project to replicate somehow, and that ‘somehow’ has turned into a
-series we’ll be launching our blog with. So stay tuned!
+through [a pretty funny data science
+podcast, Partially Derivative](http://www.partiallyderivative.com/). We thought it’d be a fun
+project to replicate the analysis somehow, and that ‘somehow’ has turned into a
+series we’ll running over next few weeks!
 
-### The Idea 
+### Idea
 
 The Vocativ article showed that across the past couple hundred years and
 many Presidents, SOTU speeches have been targeted at audiences with
@@ -40,6 +41,8 @@ it in several interesting ways, using different types of text analysis
 and a view inspired views of the data.
 
 #### Methods 
+
+Commencing with Commencements.
 
 Since the Vocativ article uses a [common grade-level readability
 formula](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests)
@@ -71,15 +74,6 @@ education; but it is at least a stronger test than the original on new
 data and independent contexts. Finding the same results generalize
 across these instances, pretty much exactly, does say something for the
 idea.
-
-
-<!-- max-width: 700px; max-height: 466px; -->
-
-
-
-
-
-![](/images/1*z2iYrZI9xUMoBuIKVO_wQg.png)
 
 
 

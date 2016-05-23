@@ -1,0 +1,74 @@
+Received: from mx0a-001d0001.pphosted.com (148.163.156.250) by
+ NEWTON.STUDENTVOICE.COM (10.10.10.204) with Microsoft SMTP Server (TLS) id
+ 14.3.266.1; Wed, 11 Nov 2015 07:44:00 -0500
+Received: from pps.filterd (m0083428.ppops.net [127.0.0.1])	by
+ mx0a-001d0001.pphosted.com (8.15.0.59/8.15.0.59) with SMTP id tABChwUx016275
+	for <ssimpson@campuslabs.com>; Wed, 11 Nov 2015 07:43:58 -0500
+Received: from mail6.bemta12.messagelabs.com (mail6.bemta12.messagelabs.com
+ [216.82.250.247])	by mx0a-001d0001.pphosted.com with ESMTP id 1y1d0j2985-1
+	(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ssimpson@campuslabs.com>; Wed, 11 Nov 2015 07:43:58 -0500
+Received: from [216.82.251.40] by server-15.bemta-12.messagelabs.com id
+ 74/93-09905-D0833465; Wed, 11 Nov 2015 12:43:57 +0000
+X-Env-Sender: steven.troy.simpson@gmail.com
+X-Msg-Ref: server-14.tower-168.messagelabs.com!1447245837!947565!1
+X-Originating-IP: [209.85.160.173]
+X-SpamReason: No, hits=0.0 required=7.0 tests=
+X-StarScan-Received:
+X-StarScan-Version: 7.19.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 56485 invoked from network); 11 Nov 2015 12:43:57 -0000
+Received: from mail-yk0-f173.google.com (HELO mail-yk0-f173.google.com)
+ (209.85.160.173)  by server-14.tower-168.messagelabs.com with
+ AES128-GCM-SHA256 encrypted SMTP; 11 Nov 2015 12:43:57 -0000
+Received: by ykdr82 with SMTP id r82so45758529ykd.3        for
+ <ssimpson@campuslabs.com>; Wed, 11 Nov 2015 04:43:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:subject:content-type:message-id:date:to
+         :content-transfer-encoding:mime-version;
+        bh=SYMWz+S3AX+tiXpPSEOx4qmOp/s16/2Z/m8YcChzpUM=;
+        b=CYSUV+dbGkJQnC88f7so28Zc1A3odnR22r3AuoEAOBNxPn4wS4y2U0CFBAK1UMFwXN
+         hNxDmK+UVEy7ft29jWJRoxrXsZAUEH/bn9srOM21JYwphol8voLgni6vHTqI1cEX04bJ
+         RtBVaDz8tLD0J8OKXz6lSDb+9e+zrgdHxVyGotQshnh1Lrh345CVHERNYKSc8x/FV7cN
+         7EPZHl6P+Tt4Lh0k6HaS9AH1Way+wd3Hrp8AmG7qOALmMNeW2kDUyiy9nngKaZOizK+A
+         ylJ7Xx5XPe5+wEhYLPrtunY/e53nMjuddjqGLD5UibxTTTG0E5w0Q1VqhGRodmpU3YkE
+         PKHA==
+X-Received: by 10.129.31.195 with SMTP id f186mr8798431ywf.204.1447245836900;
+        Wed, 11 Nov 2015 04:43:56 -0800 (PST)
+Received: from [192.168.1.9] (pool-108-17-26-78.bflony.fios.verizon.net.
+ [108.17.26.78])        by smtp.gmail.com with ESMTPSA id
+ c67sm10303026ywe.31.2015.11.11.04.43.55        for <ssimpson@campuslabs.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);        Wed, 11
+ Nov 2015 04:43:56 -0800 (PST)
+From: Steve Simpson <steven.troy.simpson@gmail.com>
+X-Google-Original-From: Steve Simpson <Steven.troy.simpson@gmail.com>
+Subject: Shinyhappymultiples
+Content-Type: text/plain; charset="us-ascii"
+X-Mailer: iPad Mail (13B143)
+Message-ID: <30C2A18B-343E-403F-8FAE-B9B8E7A3B2A0@gmail.com>
+Date: Wed, 11 Nov 2015 07:43:57 -0500
+To: Steve Simpson <ssimpson@campuslabs.com>
+Content-Transfer-Encoding: 7bit
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=spf1 redirect=_spf.google.com
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2015-11-11_10:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=audit_notspam policy=audit score=0 kscore.is_bulkscore=0
+ kscore.compositescore=1 compositescore=0.9 suspectscore=0 malwarescore=0
+ phishscore=0 bulkscore=0 kscore.is_spamscore=0 rbsscore=0.9 spamscore=0
+ urlsuspectscore=0.9 adultscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.0.1-1507310000 definitions=main-1511110215
+Return-Path: steven.troy.simpson@gmail.com
+X-MS-Exchange-Organization-AuthSource: NEWTON.STUDENTVOICE.COM
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+MIME-Version: 1.0
+
+Choose multiple files and folders using tcltk tk_choose.dir tk_file.choose
+
+Maybe make a dependency shinyfiles
+
+Figure out how to make buttons. 
+
+Sent from my iPad

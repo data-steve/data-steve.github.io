@@ -1,0 +1,74 @@
+Received: from mx0a-001d0001.pphosted.com (148.163.156.250) by
+ NEWTON.STUDENTVOICE.COM (10.10.10.204) with Microsoft SMTP Server (TLS) id
+ 14.3.266.1; Tue, 10 Nov 2015 17:56:38 -0500
+Received: from pps.filterd (m0083428.ppops.net [127.0.0.1])	by
+ mx0a-001d0001.pphosted.com (8.15.0.59/8.15.0.59) with SMTP id tAAMsRHE002145
+	for <ssimpson@campuslabs.com>; Tue, 10 Nov 2015 17:56:37 -0500
+Received: from mail6.bemta7.messagelabs.com (mail6.bemta7.messagelabs.com
+ [216.82.255.55])	by mx0a-001d0001.pphosted.com with ESMTP id 1y1d0j20k7-1
+	(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <ssimpson@campuslabs.com>; Tue, 10 Nov 2015 17:56:37 -0500
+Received: from [216.82.254.51] by server-8.bemta-7.messagelabs.com id
+ 69/7E-12088-42672465; Tue, 10 Nov 2015 22:56:36 +0000
+X-Env-Sender: sts2119@gmail.com
+X-Msg-Ref: server-4.tower-144.messagelabs.com!1447196195!2519091!1
+X-Originating-IP: [209.85.160.182]
+X-SpamReason: No, hits=0.0 required=7.0 tests=
+X-StarScan-Received:
+X-StarScan-Version: 7.19.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 8968 invoked from network); 10 Nov 2015 22:56:35 -0000
+Received: from mail-yk0-f182.google.com (HELO mail-yk0-f182.google.com)
+ (209.85.160.182)  by server-4.tower-144.messagelabs.com with
+ AES128-GCM-SHA256 encrypted SMTP; 10 Nov 2015 22:56:35 -0000
+Received: by ykdv3 with SMTP id v3so21614855ykd.0        for
+ <ssimpson@campuslabs.com>; Tue, 10 Nov 2015 14:56:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:from:content-type:message-id:date:to
+         :content-transfer-encoding:mime-version;
+        bh=JFBOPQG6Go2rC6RXSWLoUITi/VBL5y6w8NnSJWfavmk=;
+        b=sDYpQMki7aejh/PGglCyCAr2djK82xA2Oo0R8O0kWe/3eZCEOwSNLdOfOKx0Q1cuWH
+         xtMzUQnei01Z9E0pJamEzaD8R68K3NgxCKsZZ69gQAPg6TXv5dhqJlm/mJgZU7Ww8QcK
+         Vr86l0I7/J/nd8tM49bE2yJmagRBP/nXiLr6F4juMkHshQvA0vl7wCNi0Da7bTHw8NK5
+         n55JF8XAnINOtjYwlm8OyEWZ96ij5vBYjXCTdfF/xuz4C5gvQtpup/EUsv+oHFEOncac
+         BCUlf+OlplINRPO8lUjASfaCWNhfgt/0uE9PmzcpaF6T4RfgIgYGDgv6ybgFKYcZrgab
+         jPDg==
+X-Received: by 10.13.198.133 with SMTP id i127mr5894115ywd.326.1447196195359;
+        Tue, 10 Nov 2015 14:56:35 -0800 (PST)
+Received: from [10.10.20.156] (rrcs-72-45-229-34.nys.biz.rr.com.
+ [72.45.229.34])        by smtp.gmail.com with ESMTPSA id
+ i12sm6984341ywg.40.2015.11.10.14.56.33        for <ssimpson@campuslabs.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);        Tue, 10
+ Nov 2015 14:56:33 -0800 (PST)
+Subject: Check if shiny public can be taken down
+From: Steve Simpson <sts2119@gmail.com>
+Content-Type: text/plain; charset="us-ascii"
+X-Mailer: iPhone Mail (13B143)
+Message-ID: <70E60CE0-7D71-4C44-AFBA-D148BF0CE64A@gmail.com>
+Date: Tue, 10 Nov 2015 17:56:32 -0500
+To: <ssimpson@campuslabs.com>
+Content-Transfer-Encoding: 7bit
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=spf1 redirect=_spf.google.com
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2015-11-10_17:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=audit_notspam policy=audit score=0 kscore.is_bulkscore=0
+ kscore.compositescore=1 compositescore=0.9 suspectscore=1 malwarescore=0
+ phishscore=0 bulkscore=0 kscore.is_spamscore=0 rbsscore=0.9 spamscore=0
+ urlsuspectscore=0.9 adultscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.0.1-1507310000 definitions=main-1511100387
+Return-Path: sts2119@gmail.com
+X-MS-Exchange-Organization-AuthSource: NEWTON.STUDENTVOICE.COM
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+MIME-Version: 1.0
+
+
+
+
+~ Steve
+
+Sent via telepathy
+
+
