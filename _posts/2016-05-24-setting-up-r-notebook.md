@@ -34,5 +34,5 @@ Couple that with the release of JJ Allaire's video at Open Data Science conferen
 
 5.) Set the YAML output options from `output: html_document` to `output: html_notebook: default` 
 
-Don't forget that with the new daily build of RStudio you can pull the Rmd file out of the RStudio IDE and edit it in a separate pain. Simply grab the document tab and pull it away, as you would tabs in your browser or Sublime. 
+Don't forget that with the new daily build of RStudio you can pull the Rmd file out of the RStudio IDE and edit it in a separate pane. Simply grab the document tab and pull it away, as you would tabs in your browser or Sublime. 
 
