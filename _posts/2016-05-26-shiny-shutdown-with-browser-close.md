@@ -49,4 +49,4 @@ I had to edit the original answer because I couldn't get the proposed solution t
 
 I thought I'd write all this up in one place so that all my running around wasn't a waste.
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,shiny,js,datascience" data-dnt="true">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,rshiny,js,datascience" data-dnt="true">Tweet</a>
