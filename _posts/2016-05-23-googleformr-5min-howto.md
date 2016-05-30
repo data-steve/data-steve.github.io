@@ -64,4 +64,4 @@ With this simple code snippet placed in the R scripts of our internal packages w
 
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience, googleapps" data-dnt="true">Tweet</a><a class="github-button" href="https://github.com/data-steve/googleformr" data-icon="octicon-star" data-style="mega" aria-label="Star data-steve/googleformr on GitHub">googleformr</a> 
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+

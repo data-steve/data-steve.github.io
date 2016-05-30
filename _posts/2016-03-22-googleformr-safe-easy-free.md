@@ -48,8 +48,7 @@ lot of interesting ways. More about that in later posts.
 
 #### googleformr 
 
-I wrote the
-[**googleformr**](https://github.com/data-steve/googleformr) 
+I wrote the [**googleformr**](https://github.com/data-steve/googleformr) 
 package with some wrapper functions around the httr and rvest packages
 that helps facilitate POSTing information to your very own Google Forms.
 You just send the data, Google Forms handles the organization.
@@ -63,5 +62,5 @@ The 0.0.1 version of the package lets you get the POST data. More
 functionality around data validation and reading from your private
 spreadsheet is anticipated in future updates.
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience, googleapps" data-dnt="true">Tweet</a><a class="github-button" href="https://github.com/data-steve/googleformr" data-icon="octicon-star" data-style="mega" aria-label="Star data-steve/googleformr on GitHub">googleformr</a> 
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats,datascience, googleapps" data-dnt="true">Tweet</a><a class="github-button" href="https://github.com/data-steve/googleformr" data-icon="octicon-star" data-style="mega" aria-label="Star data-steve/googleformr on GitHub">googleformr</a> 
+
