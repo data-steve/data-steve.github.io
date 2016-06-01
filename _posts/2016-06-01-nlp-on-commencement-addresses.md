@@ -10,10 +10,16 @@ tags: [R, NLP, Python]
 Vocativ did an interesting [analysis of the President’s State of the Union (SOTU)
 speeches](http://www.vocativ.com/interactive/usa/us-politics/presidential-readability/). They showed that across the past couple hundred years and
 many Presidents, SOTU speeches have been targeted at audiences with
-lower and lower education levels. Vocativ’s interpretation of the
-downward sloping trend was a growing populist bent in US culture that
-influenced even how POTUS did the SOTU. Inclusiveness goes to the White
-House.
+lower and lower education levels. 
+
+
+Vocativ’s in-print interpretation of the downward sloping trend was that a speeches have gotten
+less sophisticated. Their recommended share-tweet for the article was more blunt:
+
+![](/images/share-tweet.png)
+
+We think there could be another interpretation, a growing populist bent in US culture that
+influenced even how POTUS did the SOTU. 
 
 
 ### Idea
@@ -22,10 +28,10 @@ addresses. But what other kinds of speeches happen as regularly and
 consistently as SOTU? And then it struck us: commencement speeches! And
 what better test?
 
-If commencement speeches are always targeted at an on-average more
+If commencement speeches are always targeted at an on-average relatively more
 educated audience of college graduates (and their families), then if we
 still see the same trend in language, this would be a fairly decent test
-that a cultural shift was influencing public address.
+that a cultural shift was influencing public address in general. 
 
 **In the following series of posts**, I’ll share the methods, data, and
 insights we found. We not only replicate Vocativ’s analysis, we extend
@@ -53,18 +59,18 @@ website for many of the cool insights that data and portal afford.
 ##### First Results 
 
 But not to leave you hanging until our next post: when we compare our
-results to the interactive visualization that Vocativ produced, we do in
+results (first graph above) to the interactive visualization that Vocativ produced, we do in
 fact find the same relative downward trend among the 280 usable
 speeches, from 12th grade level in the 1950s to 8th grade level in 2014.
 In this time series plot, we aggregate speeches by year, and scatter
 their occurrence with a trend line and bivariate correlation measure.
 
-The negative time trend is not proof positive of the populist
+The negative time trend is not proof-positive of the populist
 interpretation, as opposed to a more curmudgeonly view on American
 education; but it is at least a stronger test than the original on new
 data and independent contexts. Finding the same results generalize
 across these instances, pretty much exactly, does say something for the
-idea.
+populist interpretation.
 
 
 
