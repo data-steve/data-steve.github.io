@@ -18,8 +18,8 @@ less sophisticated. Their recommended [share-tweet](https://twitter.com/intent/t
 
 ![](/images/share-tweet.png)
 
-We think there could be another interpretation, a growing populist bent in US culture that
-influenced even how POTUS did the SOTU. 
+As does @partiallyd, we think there could be another interpretation: a growing populist bent in US culture that
+influenced even how POTUS did the SOTU. We try to test this hunch.
 
 
 ### Idea
