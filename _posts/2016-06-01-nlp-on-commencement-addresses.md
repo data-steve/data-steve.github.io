@@ -14,7 +14,7 @@ lower and lower education levels.
 
 
 Vocativ’s in-print interpretation of the downward sloping trend was that a speeches have gotten
-less sophisticated. Their recommended share-tweet for the article was more blunt:
+less sophisticated. Their recommended [share-tweet](https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.vocativ.com%2Finteractive%2Fusa%2Fus-politics%2Fpresidential-readability%2F&ref_src=twsrc%5Etfw&text=ANALYSIS%3A%20Presidents%27%20Speeches%20Getting%20Dumb%20%26%20Dumber%20%40mrejfox%20%40vocativ&tw_p=tweetbutton&url=http%3A%2F%2Fvoc.tv%2F1NSz3dA) for the article was more blunt:
 
 ![](/images/share-tweet.png)
 
