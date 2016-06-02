@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NLP on NPR's Commencement Addresses"
+title: "Readability Trends in Public Addresses: SOTU and Commencements"
 tags: [R, NLP, Python]
 ---
 
