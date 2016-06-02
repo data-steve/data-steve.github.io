@@ -8,7 +8,7 @@ tags: [R, NLP, Python]
 
 
 Vocativ did an interesting [analysis of the President’s State of the Union (SOTU)
-speeches](http://www.vocativ.com/interactive/usa/us-politics/presidential-readability/). They showed that across the past couple hundred years and
+speeches](http://www.vocativ.com/interactive/usa/us-politics/presidential-readability/), which we heard about via [Partially Derative podcast](http://www.partiallyderivative.com/). They showed that across the past couple hundred years and
 many Presidents, SOTU speeches have been targeted at audiences with
 lower and lower education levels. 
 
