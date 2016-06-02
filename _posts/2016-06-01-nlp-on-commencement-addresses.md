@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Readability Trends in Public Addresses: SOTU and Commencements"
+title: "Readability Trends in 350+ Public Addresses"
 tags: [R, NLP, Python]
 ---
 
