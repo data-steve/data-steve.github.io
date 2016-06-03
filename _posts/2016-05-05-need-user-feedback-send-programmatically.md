@@ -12,7 +12,7 @@ As an R-dev, I'd like to know I'm meeting community need, as well as my own. But
 
 So it'd be nice to programmatically allow meaningful user feedback to be easily sent to me privately without a lot of hassle 
 
-googleformr now comes with the function `gformr_comments` function that allows any useR of googleformr to send **useful, helpful, kind** comments to a Google Form I have set up for this purpose. Just follow along below:
+googleformr now comes with the function `comments_gformr` function that allows any useR of googleformr to send **useful, helpful, kind** comments to a Google Form I have set up for this purpose. Just follow along below:
 
 
     # compose a thoughtful comment and save it to a variable
@@ -21,7 +21,7 @@ googleformr now comes with the function `gformr_comments` function that allows a
     			   lots of posts from many people."
     
     # then send the comment
-    googleformr::gformr_comment(my_comment)
+    googleformr::comments_gformr(my_comment)
 
 
 
