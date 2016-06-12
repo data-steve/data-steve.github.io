@@ -12,11 +12,11 @@ This is the main part of the proposal [Tyler Rinker](www.github.com/trinker) and
 
 We proposed building a platform for R developers to get usage statistics and analytics on their packages at the function-level so that they can optimize their open-source contributions to how the R community is already using their work. 
 
-Our idea is rather ambitious: create decentralized, open-source user research tooling for open-source languages themselves, not just the products those languages are used to create. Give languages the same attention that websites and products have had for years; give open-source developers and users the same feedback loop companies invested heavily to have. 
+Our idea is rather ambitious: create decentralized, open-source user research tooling for open-source languages themselves, not just the products those languages are used to create. Give languages the same attention that websites and products have had for years; give open-source developers and users the same feedback loop companies invest heavily to have. 
 
-We don't know of any other attempt at this (whether developer, package, or open-source language) doing this. We wanted to make sure to do it in a way that empowers developers to do their own usage analytics within their own functions instead of being dependent on IDEs to do log scraping for them. As with the history of open-source, this keeps decentralized developers and individual users at the center rather than a centralized approach with products and a companies at the center. 
+We don't know of any other attempt at doing this -- whether developer, package, or open-source language. We wanted to make sure to do it in a way that empowers developers to do their own usage analytics within their own functions instead of being dependent on IDEs to do log scraping for them. We also wanted to maintain the privacy of the user and leave the user's experience of R uncluttered. As with the history of open-source, this decision keeps decentralized developers and individual users at the center of maturing R's package ecosystem rather than products and companies. 
 
-Though we did not get funded we still wanted to share the proposal and move forward on developing the idea. Again, next post will be more about the how.
+Though we did not get funded we still wanted to share the proposal and move forward on developing the idea. Again, next post will be more about the how of **useResearch**.
 
 
 # Our proposal-- the why
@@ -70,3 +70,5 @@ As with all of open-source, it is imperative that the developer work for the goo
 
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats, OSS, opensource, userResearch" data-dnt="true">Tweet</a><a class="github-button" href="https://github.com/data-steve/useResearch" data-icon="octicon-star" data-style="mega">useResearch</a>
+
+<br><br>
