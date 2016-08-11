@@ -10,7 +10,7 @@ tags: [R, googleformr]
  <img src="/images/googleformr_logo.png" width="200">
 </div>
 
-In [previous posts](/googleformr-5min-howto) on [how to use](feedbackr-for-user-feedback) **googleformr**, I've always demonstrated the functionality on toy forms that had only one text box. User feedback from has suggested that functionality for posting answers to a form with multiple questions would be desirable. 
+In [previous posts](/googleformr-5min-howto) on [how to use](/feedbackr-for-user-feedback) **googleformr**, I've always demonstrated the functionality on toy forms that had only one text box. User feedback from has suggested that functionality for posting answers to a form with multiple questions would be desirable. 
 
 Happily, googleformr already has that capability. Using the `gformr` function we can create a function `post_answers` links to our form via the form url or form id. To get the most recent development copy of **googleformr**:
 
