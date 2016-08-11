@@ -73,7 +73,7 @@ Second, while Google Forms accepts the post no matter its content data types (as
 That's why it may be advisable to use the short answer and long answer text boxes when building your own forms to be used with `googleformr`; with these, we don't face the same restrictions observed above. As proof, we can even turn the `mtcars` dataframe into a json string and post it to the textbox. This is one way to pass dataframes around without worrying about structuring a form to adhere to specific database requirements.
 
     empty_cars <- c("", "", "", jsonlite::toJSON(mtcars) )
-    post_answers(form=form_id, answers=empty_cars)
+    post_answers(post_content=empty_cars)
           
 In the next post, I'll be showing how to use googleformr to create an automatic homework checker that gives programmatic feedback. 
 
