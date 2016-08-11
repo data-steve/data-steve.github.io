@@ -30,7 +30,7 @@ The theme also came with some benefits. It also had feed.xml generator built in 
 
 ### Github.io
 
-Having a github.io account is free on Github, and Github will auto-buidl and serve your Jekyll-based blog. With every edit, it will detect changes to the code and rebuild it. 
+Having a github.io account is free on Github, and Github will auto-build and serve your Jekyll-based blog. With every edit, it will detect changes to the code and rebuild it. 
 
 I really like being able to copy almost word-for-word my package ReadMe demo markdown and paste it directly into a blog post. And I like that github.io will fee
 

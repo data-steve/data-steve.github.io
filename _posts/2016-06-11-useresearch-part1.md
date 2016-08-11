@@ -38,7 +38,7 @@ useR groups and R-bloggers are invaluable tools and distinguish Rstats from othe
 The R Consortium knows UR functionality is key. At the 2015 EARL Boston Conference the R Consortium discussed its agenda. [One follow-up question, in particular, hit on the importance of having a feedback loop on R packages. All three responses from the 3 discussants suggested that the R Consortium considers UR a very high priority and getting feedback and collecting data from the community was essential.](http://www.scribblelive.com/Event/Live_from_EARL_Boston/201901662) Yet even the examples of useful statistics to collected listed by JJ Allaire in the quote from the above link -- these stats were at the package level (package updates, github stars, issue close rates), not on the session/function level where the user actually lives.
 
 To our knowledge, R Foundation and CRAN currently do not collect UR data at the session/function level. A few CRAN mirrors have begun logging package downloads, but much more can be imagined for [R to compete with
-proprietary languages](http://www.scribblelive.com/Event/Live_from_EARL_Boston/201898332). Like other companies, [RStudio collects extensive user statistics related to the use of their products and interaction with their website](https://www.rstudio.com/about/privacy-policy/).
+proprietary languages](http://www.scribblelive.com/Event/Live_from_EARL_Boston/201898332). 
 
 #### Why:
 

@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Medium2jekyll R Package
+title: medium2jekyll R Package
 tags: [R, Github, Jekyll]
 ---
 
 
 ![](/inst/m2jekyll.png)
 
-Last week I went through the process of migrating my Medium blog account over to a Jekyll blog hosted github.io.
+<a class="github-button" href="https://github.com/data-steve/medium2jekyll" data-icon="octicon-star" data-style="mega">medium2jekyll</a>
+
+A few months ago I went through the process of migrating my Medium blog account over to a Jekyll blog hosted github.io. 
 
 To help with the process of migrating content over, I developed a set of scripts to handle the whole process. Though the main `medium2jekyll()` function assumes a Medium account as the target website, several of the helper functions are generic enough to pull down any html page with some automated refactoring to markdown template of text-heavy ones.
 
@@ -22,7 +24,7 @@ To help with the process of migrating content over, I developed a set of scripts
 
 To port your own Medium blog, start by downloading the github package from here:
 
-    pacman::p_load_gh("data-steve/medium2jekyll")
+    pacman::p_load_current_gh("data-steve/medium2jekyll")
 
 
 
@@ -37,6 +39,7 @@ Simply plop your Medium handle in the main **medium2jekyll** function like so:
     library(medium2jekyll)
     medium2jekyll("@fun_times")   # not a real medium acct
     
+For this package to work for you, the medium account needs to use a medium.com url--ie, no custom domain names. Further, Medium's set up makes it kind a hard to get all your posts in a succinct list. Make sure your `medium.com` account has a Latest page, but typing `medium.com/@your_account/latest` to see if it populates a list of posts. If so, you should be good to go.
 
 The function goes through the following steps:
 
@@ -57,5 +60,10 @@ If you're like me, you wanted to transfer blog platforms because you not only ha
     
 `new_post()` has several things going on to save the file with the correct file-naming conventions that Jekyll expects, namely <grin>, one that has a date and file name as a markdown file. For example, `new_post("the end of the year", date = "2016-12-31")` would create and open a file named `2016-12-31-the-end-of-the-year.md` with markdown boilerplate already containing the title in titlecase.
 
+`new_post()` is set up to check if your current working directory has `"github"` in the path. It also is going to create the file in a `"./_posts/"` subfolder, as this is where Jekyll looks for post content.
+
 
 There are other aspects of the **medium2jekyll** package which are generically useful for converting html files to markdown that I may explore further at my new blog: [data-steve.github.io](data-steve.github.io). 
+
+
+<a class="github-button" href="https://github.com/data-steve/medium2jekyll" data-icon="octicon-star" data-style="mega">medium2jekyll</a>
