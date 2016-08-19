@@ -8,11 +8,11 @@ tags: [R, dataviz]
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="data_steve" data-size="large" data-hashtags="rstats, dataviz, datascience" data-dnt="true">Tweet</a>
 
-I know that Venn diagrams are not sexy anymore and John Venn's birthday was <a href="https://flowingdata.com/2014/08/04/google-doodle-venn-diagram/" target='_blank'>actually Aug 4</a>, but Venn's still serve a purpose and its never too late to share.
+I know that venn diagrams are not as sexy as they used to be and that John Venn's birthday was <a href="https://flowingdata.com/2014/08/04/google-doodle-venn-diagram/" target='_blank'>actually Aug 4</a>, but venn diagram's still serve a purpose here and there, especially if we can get some more interesting colors in there.
 
-Plus, this question on <a href='https://stat.ethz.ch/pipermail/r-help/2010-October/255807.html' target='_blank'>how to hack the venneuler color palette</a> appears to have gone unanswered for some time.
+Plus, this question on <a href='https://stat.ethz.ch/pipermail/r-help/2010-October/255807.html' target='_blank'>how to hack the venneuler color palette</a> appears to have gone unanswered for a couple years.
 
-The `venneuler::venneuler` function doesn't come with a color option directly accessible. However, venneuler package has an unexported plot method `venneuler:::plot.VennDiagram` that does have a color option. 
+The `venneuler::venneuler` function doesn't come with a color option directly accessible. However, venneuler package has an unexported plot method `venneuler:::plot.VennDiagram` that does have a color option that takes hex colors. 
 
 The trick is to match the sequencing the labels that comes out of venneuler in the outputted object `vv` to the colors you want for each label. I hack that below by using `match(vv$labels, names(colors))`. This allows you to get consistent results on coloring and labels across uses.
 
