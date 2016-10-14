@@ -1,19 +1,22 @@
 ---
 layout: post
-title: 'Glob-Temp: Geo-Spatial Records over Time'
+title: 'Global Temp: Geo-Spatial Records over Time'
 tags: [R, munging, geo-spatial]
 ---
 
-<div  style="margin-right:auto; margin-left:auto;">
+
   <img src="/images/animated.gif" width="480">
-</div>
-A couple months ago there were datavizs showing global average temp trends all over the media. Several of them (e.g., [1](http://www.fromthebottomoftheheap.net/2016/03/25/additive-modeling-global-temperature-series-revisited/) and [2](https://rud.is/projects/hadcrut4/))  used the same HadCRUT global temperature anamolies data, analyzing it with different techniques or technologies to highlight specific statistics, namely the mean. I liked [@ucfagls's](twitter.com/ucfagls) simulation work on the averaged data and [@hrbrmstr's](twitter.com/hrbrmstr) incorporation of the error model's confidence intervals over time. 
 
-Most of these posts above emphasize the temporal nature of the data, as it is often the processed averages that they are using, which aggretate what observations are present over the globe at the time. I thought I'd do a couple posts emphasing the geo-spatial nature of the global reading as the evolve over time; to do this, I'll use the rawest data I can easily access from public records.  
 
-The gif above is the output of the first steps I took to process the raw data.
+Over the past couple months there have been datavizs showing global average temp trends. They have gotten a lot of media attention, so I got to see examples fairly regularly. Several of them (e.g., [1](http://www.fromthebottomoftheheap.net/2016/03/25/additive-modeling-global-temperature-series-revisited/) and [2](https://rud.is/projects/hadcrut4/))  used the same HadCRUT global temperature anamolies data, analyzing it with different techniques or technologies to highlight specific statistics, namely the mean. I liked [@ucfagls's](twitter.com/ucfagls) simulation work on the averaged data and [@hrbrmstr's](twitter.com/hrbrmstr) incorporation of the error model's confidence intervals over time. 
 
-## HadCRUT4 data
+Most of these posts above emphasize the temporal nature of the data, as it is often the processed averages that they are using, which aggretate what observations are present over the globe at the time. After staring at these a while, I began to wonder at decades-long downturns in the global averages begin in 1900s and again 1940s. They left me stumped to reconcile what I knew generally of industrial economic development practices going on around the world at those times.
+
+I decided to take a peak at the rawest data I could easily access from public records. Some fun data-play ensued. From that, I'll be sharing a series of posts emphasing the geo-spatial nature of the temperature records as the collection patterns evolved over time.  
+
+The gif above is the output of the first steps I took to process the raw HadCRUT data. 
+
+### HadCRUT4 data
 
 In order to get the rawest data possible for the HadCRUT4 you have to go [here to get the components datasets it's synthesized from](http://hadobs.metoffice.com/hadcrut4/). The [HadSST3](http://hadobs.metoffice.com/hadsst3/) are the sea-surface data and [CRUTEM4](http://hadobs.metoffice.com/crutem4/) are the land-surface data.
 
@@ -92,7 +95,7 @@ Since this is monthly data over many years, I mainly want to give an overall pro
       list(ym,m)
     })
 
-## Gif to animate geo-spatial collection of global temp data over time
+## Animate gif
 
 I would recommend sending the output of this task to its own folder to help with the animation step later.
 
@@ -126,4 +129,4 @@ Now to apply the animation. I suppose you could use the `animation` package, but
 
 The `animated.gif` file should be in the same folder.
 
-In the next post, I'll return to the monthly data and do some summarizations and plotting of the geo-spatial variation over time.
+In the next post, I'll return to the monthly data. Using all the data this time, I'll do some summarizations and plotting of the geo-spatial variation over time.

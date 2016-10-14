@@ -1,6 +1,8 @@
 And even this very novel application of [globe-wrapping the data](http://blog.revolutionanalytics.com/2016/10/warming-globe.html).
 
+# http://www.radicalcartography.net/index.html?histland
 
+it's odd to have more readings in the north because we have disproportionally more water the further we go south
 
 ## Static view of latitudinal collection of global temp data over time
 
