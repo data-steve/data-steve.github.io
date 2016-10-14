@@ -103,7 +103,7 @@ I would recommend sending the output of this task to its own folder to help with
     plots <- file.path(getwd(),"plots/had_plots/")
 
 
-Since the data is one big numerical matrix, plotting in base R using `image` seemed the fastest and most similar to other graphs you see on the government websites. I've included a horizonal dashed line to keep the equator evident.
+Since the data is one big numerical matrix, plotting in base R using `image` seemed the fastest and most similar to other graphs you see on the government websites. I've included a horizonal dashed line to keep the Equator evident.
 
     # plot every other Dec snapshots
     lapply(dat_mat, function(x){
