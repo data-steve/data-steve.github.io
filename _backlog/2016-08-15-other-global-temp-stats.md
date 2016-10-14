@@ -8,6 +8,9 @@ A couple months ago there were datavizs showing global average temp trends all o
 
 Seeing the same data visualized several times helped me process it more deeply. Though the main take-away was most often emphasizing the difference in the average temperature over the trend, I thought a few other points were rather interesting. 
 
+
+![](ftp://ftp.ncdc.noaa.gov/pub/data/noaa/station-chart.jpg)
+
 ### Long and Kinky Distribution
 
 The 3 things that really stood out to me were: 1) the data started around 1850, 2) the data combine sea-surface and land-surface temperature readings from different data sets, and 3) there appeared to be 3 kinks in the trend:
