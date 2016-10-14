@@ -23,6 +23,7 @@ In order to get the rawest data possible for the HadCRUT4 you have to go [here t
 In this post I'll work with the sea-surface data, HadSST3. Other posts I'll work with land-surface and compiled data, as well.
 
 Three steps will be needed to complete the animated gif above: 
+
   - get the text data and split it up by its time intervals
   - parse and clean the data 
   - create a fun gif showing recordkeeping over time
