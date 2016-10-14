@@ -103,7 +103,7 @@ I would recommend sending the output of this task to its own folder to help with
     plots <- file.path(getwd(),"plots/had_plots/")
 
 
-Since the data is one big numerical matrix, plotting in base R using `image` seemed he fastest and most similar to other graphs you see on the government websites. I've included a horizonal dashed line to keep the equator evident.
+Since the data is one big numerical matrix, plotting in base R using `image` seemed the fastest and most similar to other graphs you see on the government websites. I've included a horizonal dashed line to keep the equator evident.
 
     # plot every other Dec snapshots
     lapply(dat_mat, function(x){
@@ -121,7 +121,7 @@ Since the data is one big numerical matrix, plotting in base R using `image` see
       dev.off()
     })
     
-Now to apply the animation. I suppose you could use the `animation` package, but I just used the command line tools. I'll show you how. First change directories to where your new pngs are. You can download ffmpeg from [here](https://ffmpeg.org/download.html) for whatever platform. I found the `system` tool could successfully call the ffmpeg function `convert` and get it to work.
+Now to apply the animation. I suppose you could use the `animation` package, but I just used the command line tools. I'll show you how. First change directories to where your new pngs are. You can download `ffmpeg` from [here](https://ffmpeg.org/download.html) for whatever platform. I found the `system` tool could successfully call the ffmpeg function `convert` and get it to work.
 
     # install ffmpeg from https://ffmpeg.org/download.html
     setwd(plots)
