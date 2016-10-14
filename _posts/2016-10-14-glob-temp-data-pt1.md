@@ -121,7 +121,7 @@ Since the data is one big numerical matrix, plotting in base R using `image` see
       dev.off()
     })
     
-Now to apply the animation. I suppose you could use the `animation` package, but I just used the command line tools. I'll show you how. First change directories to where your new pngs are. You can download `ffmpeg` from [here](https://ffmpeg.org/download.html) for whatever platform. I found the `system` tool could successfully call the ffmpeg function `convert` and get it to work.
+Now to apply the animation. I suppose you could use the `animation` package, but I just used the command line tools. I'll show you how. First change directories to where your new pngs are. You can download `ffmpeg` from [here](https://ffmpeg.org/download.html) for whatever platform. I found the `system` tool could successfully call the ffmpeg function `convert` and get it to work. (On my Mac OS, system2 could handle the `pwd` call, but not `convert`.)
 
     # install ffmpeg from https://ffmpeg.org/download.html
     setwd(plots)
